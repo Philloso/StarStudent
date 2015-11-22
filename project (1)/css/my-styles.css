@@ -1,0 +1,393 @@
+
+/* Typography
+================================= */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+h1 {
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+h2, h3 {
+	font-size: 1.25em;
+	color: #5f5d60;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+p {
+	color: #b3aeb5;
+	line-height: 1.7;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+strong {
+	color: #5f5d60;
+}
+
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-img {
+  width: 100%;
+/*  height: 103%;*/
+  background: url('../img/bkgd-pitch.png') center center no-repeat;
+  background-size: cover;
+  
+  &:before {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+		opacity: .6; 
+  }
+}
+
+
+
+
+
+.navbar-text {
+	font-weight: bold;
+	margin-right: 0;
+}
+.lead {
+	color: #d5c1f2;
+	margin-bottom: 70px;
+}
+.lead:nth-of-type(2) {
+	font-size: initial;
+	margin-bottom: 20px;
+}
+.main-footer {
+	font-size: .95em;
+}
+.link-list {
+	list-style-type: none;
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+}
+.copyright {
+	opacity: .8;
+	font-size: .9em;
+}
+
+/* Links
+================================= */
+
+.main-footer a {
+	color: #a6afb2;
+}
+.link-list .heading {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* Layout
+================================= */
+
+hr {
+	margin-bottom: 58px;
+}
+.ft {
+	margin-bottom: 72px;
+}
+.ft-copy {
+	padding-top: 32px;
+}
+.ft-copy p,
+.copy-offset { 
+	width: 88%;
+}
+.panel {
+	background-image: url('../img/ss-form-panel-bg.png');
+	background-repeat: repeat-x;
+/*	border-bottom: solid 1px #fff;*/
+	padding: 45px 0;
+	margin: 88px 0 -77px 0;
+}
+.callout {
+	padding: 35px 0;
+	margin-top: 64px;
+	text-align: center;
+	border: 1px solid #e3e3e3;
+	border-right: none;
+	border-left: none;
+}
+.callout .glyphicon {
+	margin-left: 10px;
+}
+.teacher-desc strong {
+	display: block;
+}
+.th-copy {
+	padding-top: 30px;
+}
+.main-footer {
+	margin: 100px 0 80px 0;
+}
+
+/* Form
+================================= */
+
+.phone-txt {
+	padding: 24px 12px;
+	width: 90%;
+}
+.btn-submit {
+	color: inherit;
+	font-size: 1.6em;
+	background: transparent;
+	position: absolute;
+	right: 55px;
+	bottom: 3px;
+}
+ 
+.videoPl {
+   margin-left: 0%;
+   margin-bottom: 25px;
+}
+
+#videoBig {
+    height: 500px;
+	width: 80%;
+  }
+
+  .videoHolder {
+	  text-align:center;
+  }
+
+.glyphicon {
+	position: absolute;
+    top: -31px;
+    right: 33px;
+}
+
+
+/* Buttons
+================================= */
+
+.btn-default {
+	border-width: 2px;
+	border-color: inherit;
+	margin-right: 10px;
+	padding: 12px 22px;
+}
+.btn-default:hover {
+	background-color: #fff;
+	color: yellow;
+	border-color: #fff;
+}
+.btn:active {
+	box-shadow: none;
+}
+.panel .btn-default:hover {
+	background-color: #ccc;
+	color: #f7f7f7;
+	border-color: #ccc;
+}
+.btn-success {
+	box-shadow: 0 3px 0 #f00;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	font-size: 1.5em;
+	width: 330px;
+	padding: 15px 0;
+}
+
+/* Jumbotron
+================================= */
+
+.jumbotron {
+	background-image: url('../img/bkgd-pitch.png');
+	background-repeat: no-repeat;
+	background-position:  64% 207%;
+/*	padding: 150px 0 140px 0;*/
+	margin-bottom: 70px;
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+67,000000+100&amp;0+28,1+87 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 28%, rgba(0,0,0,0.66) 67%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 28%,rgba(0,0,0,0.66) 67%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 28%,rgba(0,0,0,0.66) 67%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+  
+}
+.jumbotron2 {
+	background-image: url('../img/bkgd-pitch.png');
+	background-repeat: no-repeat;
+	background-position:  -2% 210%;
+	padding: 150px 0 140px 0;
+	margin-bottom: 70px;
+}
+.device {
+	width: 345px;
+	height: 564px;
+	background: url('../img/ss-device-hero.png') no-repeat;
+}
+
+
+/* Logos & Icons
+================================= */
+
+.navMove {
+  
+}
+
+
+
+.main-logo {
+	width: 224px;
+	height: 68px;
+	margin-top: 9px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/ss-main-logo.png') no-repeat;
+	background-size: 100%;
+}
+.ft-icon {
+	width: 101%;
+	height: 196px;
+	position: relative;
+	background: rgba(0, 7, 255, 0.19) url('../img/ss-main-bg.png') no-repeat 270px -180px;
+	background-size: 140%;
+}
+.ft-icon.friends {
+	background-position: -500px 0px;
+}
+.ft-icon.cloud {
+	background-position: 260px 0px;
+}
+.ft-icon:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 164px;
+	height: 102px;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	margin: auto;
+	background: url('../img/ss-feature-icons.png') no-repeat;
+	background-size: 100%;
+}
+.friends:before {
+	background-position: 0 -103px;
+}
+.cloud:before {
+	background-position: 0 -205px;
+}
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	margin-right: 8px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.th-logo {
+	width: 210px;
+	margin: 1.25em 0 .95em 0;
+}
+
+
+/* Media Queries
+================================= */
+
+@media (max-width: 991px) {
+  .panel.top {
+padding-top: 20px;
+
+  }
+
+	.jumbotron {
+		padding-top: 94px;
+		padding-bottom: 5px;
+		background-position: 80% 48%;
+    margin-top: 4px;
+	}
+	.ft-copy {
+		padding-top: 12px;
+	}
+	.ft-copy p {
+		width: auto;
+	}
+	.device {
+		margin-top: -109px;
+	}
+}
+@media (max-width: 767px) {
+.nav.nav-pills {
+/*     height: 50px;*/
+    margin-top:-15px;
+  margin-right: 15%;
+    
+}
+.panel.top {
+  margin: 132px 0 -76px 0;
+  margin-left: 10%;
+}
+	.navbar {
+		min-height: 60px;
+	}
+	.main-logo {
+		width: 135px;
+		margin-top: 20px;
+    height: 78;
+	}
+	.jumbotron {
+		padding-top: 80px;
+		margin-bottom: -133px;
+	}
+	.lead {
+		margin-bottom: 40px;
+	}
+	.ft {
+		margin-bottom: 16px;
+	}
+	hr {
+		margin-bottom: 40px;
+	}
+	.btn-success {
+		width: 85%;
+		font-size: initial;
+	}
+	.callout, 
+	.link-list {
+		margin-top: 32px;
+	}
+	.main-footer {
+		margin-top: 64px;
+	}
+	.link-list {
+		float: left;
+		margin-right: 32px;
+	}
+    
+    .style {
+     background-color: none;
+    }
+}
