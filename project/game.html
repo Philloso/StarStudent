@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html>
   <head>
     <title>StarStudent</title>
@@ -7,54 +8,85 @@
     <link href="css/my-styles.css" rel="stylesheet" media="screen">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
-
     <![endif]-->
   </head>
-  <body>
+  <body><div class="bg-img">
 
     <!--Navbar -->
-      
-  <div class="navbar navbar-default navbar-fixed-top">
+
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <a class="main-logo pull-left" href="#">StatStudent</a>
-        <p class="navbar-text  hidden-xs">A bright future</p>
+        <p class="navbar-text hidden-xs">A bright future</p>
       </div> 
         
        <div class="navMove">      
         <ul class="nav nav-pills ">
           
-          <li role="presentation"><a href="index.html">Home</a></li>
-          <li role="presentation" class="active"><a href="game.html">Video</a></li>
-          <li role="presentation"><a href="#">Contact</a></li>
+          <li role="presentation" class="active"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="game.html">Video</a></li>
+          <li role="presentation"><a href="contact.html">Contact</a></li>
         </ul>
       </div>
        
     </div>
-      <!-- End navbar -->
-    
       
-
- 
-    
-		<div class="panel videoPl"> 
+      	<div class="panel videoPl"> 
 			<div class="videoHolder">
 				<iframe id="videoBig" src="https://www.youtube.com/embed/PsI3_-GwX14" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
+      </div>
+      <!-- End navbar -->
 
-    <div class="container">
-
+<hr class= "panel top">
+    <!-- Jumbotron -->
+    
+<!--
+     <div class=" jumbotron">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-sm-6 ">
+            <div class="pull-right"></div>
+          </div>
+            <div class="col-sm-6 hidden-xs">
+            <h1>Shining in the classroom.</h1>
+            <p class="lead">StarStudent features up and coming student athletes! </p>
+            <p class="lead">Or download the app and try it first.</p>
+            <p class="lead">
+              <a class="btn btn-default btn-lg" href="#" data-icon="&#xe001;">Video</a>
+              <a class="btn btn-default btn-lg" href="#" data-icon="&#xe002;">Android</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> </div>
+-->
+      
+      <!-- End Jumbotron -->
+  
+  
+    
+    <!-- Main Content -->
+ 
+    <div class="mid" style="
+    margin-top: 153px;
+    margin-left: 44px;
+">
+ 
+<!--
+    <div>
       <div class="row ft">
         <div class="col-sm-3 hidden-xs">
           <div class="ft-icon camera img-rounded"></div>
         </div>
         <div class="col-sm-6 ft-copy">
-          <h2>Securely delete photos &amp; video based on a timer</h2>
+          <h2>Promote your game with photos &amp; videos. </h2>
           <p>
-            Learn how to write the code that downloads and displays messages, photos, and videos that timeout after a few seconds. Then create the code that deletes them from the back-end to make them "self destruct."
+            Get your game up with StarStudent, featuring your photos, videos, and stats along with current grades and GPA.
           </p>
         </div>
       </div>
@@ -67,9 +99,9 @@
       
         
            <div class="col-sm-6 ft-copy">
-          <h2>Build an easily managed friends list</h2>
+          <h2>Track players education online.</h2>
           <p>
-            Learn what Parse.com offers as a "backend-as-a-service" platform. Explore the user account.
+            Learn more then just what happened on the court, StarStudent features players current grades and GPA.
           </p>
         </div>
           </div>
@@ -79,21 +111,22 @@
           <div class="ft-icon cloud img-rounded"></div>
         </div>
         <div class="col-sm-6 ft-copy">
-          <h2>Store &amp; retrieve data using cloud servers</h2>
+          <h2>Fual a future Star. </h2>
           <p>
-            We'll teach you how to upload images, video files, and messages to Parse.com's cloud servers. Then learn how to retrieve the data by setting up custom queries that download and display them in the app. 
+            you can reward Stars hard work in the class room with comment and vote them to the top.
           </p>
         </div>
       </div>
+-->
 
       <!-- Panel -->
       <div class="panel panel-default hidden-xs">
         <div class="row panel-body">
           <div class="col-sm-5 col-sm-offset-1">
             <form>
-              <p><strong>Enter your number and we'll text you a link</strong></p>
-              <label class="sr-only">Phone Number</label>
-              <input class="form-control phone-txt" type="text" placeholder="Phone Number">
+              <p><strong>Enter your E-mail to subscribe to our newsletter.</strong></p>
+              <label class="sr-only">E-mail address</label>
+              <input class="form-control phone-txt" type="email" placeholder="E-Mail Address">
               <button class="btn btn-submit" type="submit">
                 <span class="glyphicon glyphicon-arrow-right"></span>
               </button>
@@ -107,22 +140,32 @@
         </div>
       </div> 
         
-        <hr>
+        <hr class="panel">
+      
          <!-- Video Modal -->
+      
     <div class="modal fade" id="videoModal">
       <div class="modal-dialog">
         <div class="modal-content">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/PsI3_-GwX14" frameborder="0" allowfullscreen></iframe>
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Learn how to make this app!</h4>
-          </div>
-          <div class="modal-body">
-          </div>
+          
+<!--            <iframe width="560" height="315" src="https://www.youtube.com/embed/PsI3_-GwX14" frameborder="0" allowfullscreen>-->
+          
+     <iframe width="535" height="761" src="play.html">
+              
+              
+          </iframe>
+         
+          
+    
+          
+          
+         
+          
         </div>
       </div>
     </div>    
-    <!-- End Video Modal -->
+      
+    <!-- End Video Modal 
         
         
         <!-- End panel -->
@@ -240,3 +283,10 @@ more info to come!
     
   </body>
 </html>
+
+
+
+
+
+
+
