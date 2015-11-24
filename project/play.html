@@ -2,7 +2,7 @@
 <html>
    <body>
        
-        <p>Da Ville Invaders</p>
+        <p class="gamTxt" style="font-family:  monospace; text-align: center;">Da Ville Invaders</p>
 
 <script src="js/helper.js"></script>
           
@@ -367,19 +367,29 @@
               <button class="btn btn-default btn-lg"  onclick= '{ 
      shootSound.play(); bullets.push(new Bullet(tank.x + 10, tank.y, -8, 2, 6, "#fff"));
           }'style="
+    background-color: yellow;
     margin-left: -71px;
 ">Shoot</button>
       
                <button class="btn btn-default btn-lg" onmousedown="{ 
               tank.x -= 20;
-          }">Left</button>
+          }"style="
+         background-color: yellow;
+         margin-left: 170px;
+        ">Left</button>
     
                <button class="btn btn-default btn-lg"  onmousedown="{ 
               tank.x += 20;
-          }">Right</button>
+          }"style="
+         background-color: yellow;
+         margin-left: 20px;
+        ">Right</button>
      </span>
                 
-            <h4 class="modal-title">"B" to shoot "LT/RT" to move.</h4>
+            <h4 class="modal-title" style="
+                 color: #909090;
+                 text-align: center;                               
+            ">"B" to shoot "LT/RT" to move.</h4>
      </div>
         </body>     
   
